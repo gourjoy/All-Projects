@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo&display=swap');
+
+body {
+	overflow-x: hidden;
+	font-family: 'Heebo', sans-serif;
+}
+a {
+	text-decoration: none;
+	display: inline-block;
+}
+section.log {
+	background-color: #f0f2f5;
+	overflow: hidden;
+}
+.row {
+	padding-top: 15%;
+}
+.page-title {
+	height: 110vh;
+	width: 100%;
+	/* display: flex;
+     justify-content: center;
+     align-content: center;
+     flex-direction: column; */
+	padding-left: 60px;
+}
+.page-title img {
+	width: 300px;
+	transform: translateX(-29px) translateY(10px);
+	-webkit-transform: translateX(-29px) translateY(10px);
+	-moz-transform: translateX(-29px) translateY(10px);
+	-ms-transform: translateX(-29px) translateY(10px);
+	-o-transform: translateX(-29px) translateY(10px);
+}
+.page-title p {
+	font-size: 28px;
+	line-height: 1.2;
+}
+
+.login-form {
+	margin: auto;
+	margin-top: -35px;
+	margin-left: 75px;
+	text-align: center;
+	width: 72%;
+	background-color: #fff;
+	padding: 15px;
+	text-align: center;
+	border-radius: 8px;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	-ms-border-radius: 8px;
+	-o-border-radius: 8px;
+}
+input {
+	display: block;
+	padding: 13px;
+	width: 100%;
+	border: 1px solid #ddd;
+	border-radius: 8px;
+	margin-bottom: 12px;
+	font-size: 17px;
+	box-shadow: inset 0px 0px 2px #ddd;
+}
+input:focus {
+	border: 1px solid #1877f2;
+	box-shadow: inset 0px 0px 2px #1877f2;
+	outline: none;
+}
+
+input::placeholder {
+	color: rgb(170, 167, 167);
+}
+
+input[type='submit'] {
+	color: #fff;
+	font-weight: bold;
+	font-size: 20px;
+	padding: 7px;
+	background-color: #1877f2;
+	border: none;
+	transition: 200ms;
+	-webkit-transition: 200ms;
+	-moz-transition: 200ms;
+	-ms-transition: 200ms;
+	-o-transition: 200ms;
+}
+input[type='submit']:hover {
+	background-color: #0e55b3;
+}
+#forget {
+	font-size: 14px;
+}
+hr {
+	color: #afafaf;
+}
+#create {
+	font-size: 18px;
+	font-weight: bold;
+	margin-top: 10px;
+	color: #fff;
+	background-color: #42b72a;
+	padding: 12px 15px;
+	border-radius: 5px;
+	transition: 200ms;
+	-webkit-transition: 200ms;
+	-moz-transition: 200ms;
+	-ms-transition: 200ms;
+	-o-transition: 200ms;
+}
+#create:hover {
+	background-color: #299912;
+}
+
+.last-line {
+	font-size: 14px;
+	padding: 20px;
+	transform: translateX(110px);
+	-webkit-transform: translateX(110px);
+	-moz-transform: translateX(110px);
+	-ms-transform: translateX(110px);
+	-o-transform: translateX(110px);
+}
+.last-line a {
+	color: #000000;
+	font-weight: bold;
+}
+
+.links a {
+	color: #807f7f;
+	padding: 0 5px;
+	font-size: 15px;
+}

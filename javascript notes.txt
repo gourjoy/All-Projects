@@ -1,0 +1,9 @@
+									JAVASCRIPT NOTES
+1/ find position of any value in arrey = variableName.indexOf["value"]
+2/ add any value to a arrey's last position = variableName.push("value")
+3/ remove any value from a arrey's last position = variableName.pop()
+4/ add any value to a arrey's first position = variableName.unshift("value")
+5/ remove any value from a arrey's first position = variableName.shift("value")
+6/ find how many elements in a arrey = variableName.length
+7/ take a part of arrey = variableName(2,6). if the arrey have 10 values, this log will give us the third to seventh value of the arrey. 
+8/ "num++" means "num + 1"

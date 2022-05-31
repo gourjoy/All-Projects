@@ -1,0 +1,4 @@
+JAVASCRIPT NOTES
+1/ find position of any value of arrey = variableName.indexOf[value]
+2/add any value to a arrey = variableName.push[value]
+3/ 

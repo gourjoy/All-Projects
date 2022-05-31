@@ -1,0 +1,131 @@
+:root{
+     --clr-lgt:rgb(255, 0, 0);
+}
+
+
+* {
+     margin: 0;
+}
+
+.hmj *+* {
+     color: rgb(252, 0, 0);
+     margin-left: 1rem;
+}
+
+body {
+     height: 2000px;
+}
+
+.wraper {
+     width: 100%;
+     height: 98vh;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     border: 1px solid red;
+}
+
+.box {
+     width: 200px;
+     height: 200px;
+     background-color: rgb(218, 97, 16);
+     border-radius: 50%;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     box-shadow: 0px 0px 0 15px rgb(255, 29, 29), 0px 0px 0 30px rgb(119, 255, 29);
+     transition: .5s;
+}
+
+.box:hover {
+     box-shadow: 0px 0px 0 15px rgb(211, 27, 156), 0px 0px 0 30px rgb(255, 208, 0), 0px 0px 0 45px rgb(61, 89, 216);
+}
+
+.hj {
+     height: 100vh;
+}
+
+h2 {
+     /* text-align: center; */
+     /* color: rgb(255, 255, 255); */
+     display: block;
+}
+
+
+
+button {
+     border: none;
+     padding: 10px 15px;
+     background: rgb(252, 207, 6);
+     border-radius: 3px;
+     transition: 0.3s;
+     margin: auto;
+     text-transform: uppercase;
+     display: block;
+}
+
+button:hover {
+     box-shadow: inset -105px 50px 5px rgb(255, 251, 0);
+     /*color: white;
+     */padding: 12px 18px;
+}
+
+
+
+img{
+     width: 400px;
+     height: 250px;
+     transition: all 0.3s;
+     -webkit-transition: all 0.3s;
+     -moz-transition: all 0.3s;
+     -ms-transition: all 0.3s;
+     -o-transition: all 0.3s;
+}
+
+.cover{
+     display: inline-block;
+     overflow: hidden;
+     position: relative;
+     margin: 30px;
+}
+.over{
+     width: 400px;
+     height: 250px;
+     padding: 20px;
+     text-transform: uppercase;
+     text-align: center;
+     background-color:red;
+     color: white;
+     position: absolute;
+     transform:translateY(250px);
+     transition: 0.3s ease-out;
+     -webkit-transition: 0.3s ease-out;
+     -moz-transition: 0.3s ease-out;
+     -ms-transition: 0.3s ease-out;
+     -o-transition: 0.3s ease-out;
+     -webkit-transform:translateY(250px);
+     -moz-transform:translateY(250px);
+     -ms-transform:translateY(250px);
+     -o-transform:translateY(250px);
+}
+.cover:hover .over{
+          /*width:400px;
+          opacity: 1;
+          */transform:translateY(0px);}
+
+
+
+h1{
+     color: rgb(18, 231, 185);
+     font-size: 3rem;
+     text-shadow: 3px 1px 3px #fff,
+                    6px 4px 6px #000,
+                    6px 4px 6px rgb(231, 33, 33);
+     margin: 100px;
+     font-weight: bold;
+     display: inline-block;
+
+}
+.var{
+     color: var(--clr-lgt );
+}

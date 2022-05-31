@@ -1,0 +1,74 @@
+/* style for 1200px screen width */
+@media (max-width:1200px) {}
+
+/* style for 992px screen width */
+@media (max-width:992px) {
+     .navbar-expand-md .navbar-nav .nav-link {
+          margin: 0 .5rem;
+          float: right;
+          padding: 1rem .5rem;
+          font-size: 1.4rem;
+     }
+}
+
+/* style for 768px screen width */
+@media (max-width:768px) {}
+
+/* style for 576px screen width */
+@media (max-width: 576px) {
+     .home {
+          height: auto;
+     }
+
+     .home-content {
+          padding: 2rem;
+          margin: auto;
+          margin-top: 6rem;
+          width: 90%;
+     }
+
+     .home-content h1 {
+          font-size: 2.3rem;
+          margin-bottom: .7rem;
+          text-transform: uppercase;
+     }
+
+     .home-content p {
+          margin-bottom: 2rem;
+     }
+
+     .home-content a {
+          padding: 1rem 2rem;
+          color: #fff;
+          border-radius: 2.5rem;
+          font-size: 1.2rem;
+     }
+
+     .woman {
+          display: none;
+     }
+
+     .books {
+          position: absolute;
+          bottom: 0rem;
+          right: 0;
+          width: 10rem;
+     }
+
+
+
+}
+
+/* style for 480px screen width */
+@media (max-width:480px) {}
+
+/* style for 414px screen width */
+@media (max-width:414px) {}
+
+/* style for 320px screen width */
+@media (max-width:320px) {}
+
+/* style for 290px screen width */
+@media (max-width:290px) {}
+
+/* @media (max-width:1200px) {} */

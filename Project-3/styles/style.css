@@ -1,0 +1,374 @@
+/* ------------------------------- 
+     TODO: global styles
+------------------------------- */
+html {
+     font-size: 62.5%;
+     scroll-behavior: smooth;
+}
+
+body {
+     font-family: arial, sans-serif;
+     font-size: 1.6rem;
+}
+
+h1,
+h2,
+h3,
+h4 {
+     font-weight: bold;
+}
+
+h2 {
+     font-size: 2rem;
+}
+
+
+/* ------------------------------- 
+     TODO: reusable styles
+------------------------------- */
+section {
+     padding: 4rem 0;
+     margin: 4rem 0;
+}
+
+/* ------------------------------- 
+     TODO: styles of navbar
+------------------------------- */
+header {
+     background-color: #fff;
+}
+
+header .container {
+     max-width: 100rem;
+}
+
+.navbar-brand img {
+     width: 3rem;
+     padding: 0;
+     margin: 0 3rem;
+}
+
+.navbar-expand-md .navbar-nav .nav-link {
+     margin: 0 1rem;
+     float: right;
+     padding: 1rem 1rem;
+     font-size: 1.4rem;
+}
+
+.navbar-expand-md .navbar-nav .nav-link:hover,
+.navbar-expand-md .navbar-nav .nav-link:active {
+     color: #43cb83;
+     text-decoration: underline;
+}
+
+.navbar-expand-md .navbar-nav .apply-btn {
+     padding: .5rem 2rem;
+     background-color: #fff;
+     border-radius: 25px;
+     transition: .3s;
+     color: #43cb83;
+     margin-top: .3rem;
+     border: 1px solid rgba(190, 121, 121, 0.925);
+}
+
+.apply-btn:hover {
+     box-shadow: 1px 3px 5px rgb(70, 66, 66);
+     text-decoration: none;
+}
+
+.navbar-toggler {
+     border: none;
+}
+
+.navbar-toggler:focus {
+     box-shadow: none;
+}
+
+/* --------------------------------------- 
+     TODO: styles of home section
+--------------------------------------- */
+.home {
+     position: relative;
+     background: #252c3a;
+     background: url(../img/home/circle.png);
+     background-repeat: no-repeat;
+     background-position: top -50% right -17%;
+     background-size: 50%;
+     padding-bottom: 2rem;
+     height: 80vh;
+     overflow: hidden;
+}
+
+.woman {
+     position: absolute;
+     bottom: 0;
+     left: 0;
+     width: 35rem;
+}
+
+.books {
+     position: absolute;
+     bottom: 0;
+     right: 0;
+     width: 25rem;
+}
+
+.home-content {
+     /* text-align: center; */
+     padding: 1rem;
+     margin: auto;
+     margin-top: 22rem;
+     max-width: 60rem;
+}
+
+.home-content h1 {
+     color: #43cb83;
+     font-weight: 700;
+     font-size: 4rem;
+     margin-bottom: .7rem;
+     text-transform: uppercase;
+}
+
+.home-content p {
+     margin-bottom: 3rem;
+}
+
+.home-content a {
+     text-decoration: none;
+     padding: 1rem 2rem;
+     color: #fff;
+     background-color: #43cb83;
+     border-radius: 2.5rem;
+}
+
+/* --------------------------------------- 
+     TODO: styles of department section
+--------------------------------------- */
+.department {
+     margin: 4rem auto;
+}
+
+.section-content {
+     max-width: 800px;
+     margin: 3rem auto;
+     padding: 0 1rem;
+}
+
+.single-card {
+     margin: 2rem auto;
+     padding: 3.5rem 0rem;
+     max-width: 200px;
+     cursor: pointer;
+}
+
+.single-card img {
+     width: 6.5rem;
+     margin-bottom: 1rem;
+}
+
+.single-card h3 {
+     font-size: 1.5rem;
+     padding-bottom: 2rem;
+     z-index: 7;
+}
+
+.cards div:first-child .single-card {
+     background-color: #f1e3fc;
+}
+
+.cards div:nth-child(2) .single-card {
+     background-color: #e3fcfa;
+}
+
+.cards div:nth-child(3) .single-card {
+     background-color: #fcf0e3;
+}
+
+.cards div:nth-child(4) .single-card {
+     background-color: #fceee3;
+}
+
+.cards div:nth-child(5) .single-card {
+     background-color: #f3fce3;
+}
+
+.cards div:last-child .single-card {
+     background-color: #e3f3fc;
+}
+
+/* --------------------------------------- 
+     TODO: styles of third section
+--------------------------------------- */
+.third {
+     background: url(../img/third-sec/backpng.png);
+     background-size: 90%;
+     background-repeat: no-repeat;
+}
+
+.video-area {
+     width: 250px;
+     height: 250px;
+     border-radius: 50%;
+     background-image: url(../img/third-sec/play-back.png);
+     background-position: center center;
+     position: relative;
+     border: 15px solid #ebf7fc;
+     margin: 1.5rem auto;
+}
+
+.video-area .play-btn {
+     width: 50px;
+     position: absolute;
+     top: 40%;
+     left: 40%;
+}
+
+.count {
+     margin: 3rem 0;
+}
+
+.count div h3 {
+     font-size: 4rem;
+     padding: 0;
+}
+
+.count div p {
+     font-size: 1.6rem;
+     margin-top: -1.3rem;
+}
+
+.count div:first-child {
+     color: #ffba00;
+}
+
+.count div:nth-child(2) {
+     color: #ff5f72;
+}
+
+.count div:last-child {
+     color: #43cb83;
+}
+
+/* --------------------------------------- 
+     TODO: styles of sign-up section
+--------------------------------------- */
+.sign-up {
+     background: url(../img/sign-up/sign-up-bg.jpg);
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: center center;
+     position: relative;
+}
+
+.sign-up .container{
+     max-width: 80rem;
+}
+
+.sign-up form{
+     position: absolute;
+     top: 0;
+     right: 0;
+}
+.sign-up form input :not(:nth-child(6)){
+     display: block;
+}
+
+
+
+
+
+
+
+
+
+
+/* --------------------------------------- 
+     TODO: styles of footer section
+--------------------------------------- */
+footer {
+     background-color: #252c3a;
+     color: #fff;
+     overflow: hidden;
+}
+
+.first-footer {
+     padding: 3rem;
+}
+
+footer p {
+     color: #969595;
+     font-size: 1.3rem;
+}
+
+.about .logo {
+     width: 12rem;
+}
+
+.about p {
+     font-size: 1.4rem;
+     padding: 2rem 0;
+     padding-right: 3rem;
+     border-bottom: 1px solid #969595;
+}
+
+.about,
+.feature {
+     padding-top: 3rem;
+}
+
+.programs {
+     padding: 2rem 0;
+}
+
+.programs span {
+     font-size: 1rem;
+}
+
+.programs p {
+     padding: .7rem 0;
+}
+
+.support p {
+     padding-top: 2rem;
+}
+
+.input {
+     margin-top: 2rem;
+}
+
+.input input[type="email"] {
+     width: 69%;
+}
+
+.input input[type="submit"] {
+     background-color: #f3a751;
+     color: #fff;
+}
+
+.input input {
+     padding: 1.2rem;
+     border: none;
+     outline: none;
+     font-size: 1.2rem;
+}
+
+.social-icons a img {
+     color: #4a4a4a;
+     padding: 1rem;
+}
+
+.last-footer {
+     background-color: #1d232e;
+}
+
+.last-footer {
+     padding-top: 1rem;
+     text-align: center;
+}
+
+.list-unstyled li {
+     display: inline-block;
+     color: #4a4a4a;
+     padding: 0 .5rem;
+     font-size: 1.2rem;
+}

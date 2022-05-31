@@ -1,0 +1,18 @@
+.btn-primary {
+  transition: all 0.3;
+  border-radius: 0cm;
+  font: 1em sans-serif;
+  -webkit-border-radius: 0cm;
+  -moz-border-radius: 0cm;
+  -ms-border-radius: 0cm;
+  -o-border-radius: 0cm;
+  -webkit-transition: all 0.3;
+  -moz-transition: all 0.3;
+  -ms-transition: all 0.3;
+  -o-transition: all 0.3;
+}
+
+.btn-primary:hover {
+  color: #fff;
+}
+/*# sourceMappingURL=sass.css.map */
